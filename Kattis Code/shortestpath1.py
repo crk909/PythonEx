@@ -1,6 +1,7 @@
 from queue import PriorityQueue
+import math
 
-INF = 100000000
+INF = math.inf
 while True:
     n,m,q,s = [int(i) for i in input().split()]
     # print("Read input: ", n,m,q,s)

@@ -12,3 +12,4 @@ for i in range(x):
     print(str2)
     print(output)
 
+4
