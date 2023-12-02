@@ -38,13 +38,3 @@ for i in range(1,houses+1):                 # n
 
 if to_print:
     print("Connected")
-
-# Too slow
-# Change implementation of visited
-# Just make single list within dictionary
-# Don't make a second thing in it for False or True
-
-# Instead make disconnected immediately as bit array
-# Update index to 0 when visited
-# At end just print each index where still 1
-# If all 0 print "Connected"
